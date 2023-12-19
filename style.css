@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.block{
+    display: flex;
+    width: 1500px;
+    height: 50px;
+   
+}
+.conta{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1500px;
+}
+form input{
+    width: 16px;
+height: 16px;
+flex-shrink: 0;
+fill: #FFF;
+filter: drop-shadow(0px 0px 0px rgba(70, 79, 96, 0.16)) drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.10));
+margin-top: 20px;
+}
+.one-img{
+    margin-top: 19px;
+    margin-left: 15px;
+    width: 16px;
+height: 16px;
+flex-shrink: 0;
+}
+table tr{
+    color: var(--Gray-900, #171C26);
+font-variant-numeric: lining-nums tabular-nums;
+
+/* Body/Number */
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 142.857% */
+align-self: stretch;
+}
+#td{
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.th{
+    color: #5E5ADB;
+
+/* Subtitle/S2 */
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 20px; /* 142.857% */
+letter-spacing: 0.28px;
+position: relative;
+left: 25px;
+top: 2px;
+}
+.img-page{
+    margin-top: 13px;
+    margin-left: 125px;
+    width: 24px;
+height: 24px;
+flex-shrink: 0;
+border-radius: 6px;
+border: 1px solid rgba(213, 219, 229, 0.50);
+background: url(<path-to-image>), lightgray 0px -6px / 100% 150% no-repeat;
+
+}
+.img-page-2{
+    margin-top: 9px;
+    margin-left: 15px;
+    width: 70px;
+    height: 30px;
+}
+.one-p{
+    color: var(--Gray-900, #171C26);
+
+/* Body/B2 */
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 142.857% */
+flex: 1 0 0;
+}
+.br{
+    display: flex;
+    margin-left: 70px;
+    margin-top: 13px;
+}
+.img-class{
+ 
+width: 16px;
+height: 16px;
+}
+#btn{
+    border: 1px solid white;
+    margin-top: 8px;
+    margin-left: 30px;
+    width: 30px;
+    height: 30px;
+}
+#btn1{
+    border: 1px solid white;
+    margin-left: 50px;
+    width: 150px;
+    height: 30px;
+}
+.right{
+    margin-left: 40px;
+    width: 16px;
+height: 16px;
+}
+.line{
+    margin-top: 8px;
+}
+#h2{
+    margin-left: 20px;
+    margin-top: 15px;
+    color: var(--Gray-900, #171C26);
+text-align: right;
+
+/* Body/B2 */
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 142.857% */
+width: 120px;
+}
